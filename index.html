@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Body Shape </title>
     <!-- tailwind install with cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--------font awesome script-------->
+    <script src="https://kit.fontawesome.com/17fb321dbc.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        
+        <!----------Navbar Section Start------->
+        <nav class=" bg-black p-2">
+            <div class="container mx-auto  flex flex-col md:flex-row  justify-between items-start md:items-center">
+                <!-- logo -->
+                <div class="bg-gradient-to-r from-[#F66844] to-[#5e3508] bg-clip-text text-transparent">
+                    <div class="text-center flex gap-2 items-center md:mb-3 mb-1  ">
+                        <img src="./images/logo_left.png" alt="">
+                        <h1 class="md:text-2xl text-xl  font-medium">BodyShape</h1>
+                        <img src="./images/logo_right.png" alt="">
+                    </div>
+                    <p class="font-medium">Unleash your inner athlete</p>
+                </div>
+                <!-- route -->
+                <div class="md:flex items-center gap-10 list-none hidden text-white">
+                    <li class="hover:text-orange-400 border-b-2 border-orange-600 "><a href="">Home</a></li>
+                    <li class="hover:text-orange-400"><a href="">Services</a></li>
+                    <li class="hover:text-orange-400"><a href="">About</a></li>
+                    <li class="hover:text-orange-400"><a href="">Contact</a></li>
+                    <button class="bg-gradient-to-r from-[#F66844] to-[#FF921B] p-2 rounded-sm text-white font-semibold hover:from-[#FF921B] hover:to-[#F66844] transition-all duration-300">
+                        Join us
+                    </button>
+                </div>
+                <h1 class="text-white text-2xl md:hidden flex relative bottom-8  ml-auto">
+                   <i class="fa-solid fa-bars"></i>
+                </h1>
+            </div>
+        </nav>
+
     </header>
     <main>
 
@@ -18,4 +49,5 @@
 
     </footer>
 </body>
+
 </html>
