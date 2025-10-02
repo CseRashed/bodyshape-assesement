@@ -11,8 +11,8 @@
     <script src="https://kit.fontawesome.com/17fb321dbc.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header class="bg-black">
+<body class="bg-black">
+    <header class="">
         <!----------Navbar Section Start------->
         <nav class="p-2">
             <div class="container mx-auto  flex flex-col md:flex-row  justify-between items-start md:items-center">
@@ -41,8 +41,8 @@
             </div>
         </nav>
         <!-- ---------Banner Section Start---------- -->
-         <section class="" >
-            <div class="container mx-auto px-2 relative">
+         <section>
+            <div class="container mx-auto mb-5  relative">
                 <div class="text-white absolute top-5 left-5 md:top-10 lg:top-25 ">
                    <div class="px-6 py-6 bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 md:mb-8 mb-0 ">
                      <h1 class="text-xl sm:text-xl md:text-5xl lg:text-7xl text-white font-medium">
@@ -51,21 +51,99 @@
                        <p class="text-white/90 my-3 md:my-10">
                            We are dedicated to helping you  transform  your <br> body and mind through the power of fitness.
                        </p>
-                   </div>
-
-                    
-                        <button class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-6 py-2 text-xs rounded-sm text-white font-semibold hover:from-[#FF921B] hover:to-[#F66844] mx-4">Get started</button>
-                        <button class="p-2 border-2 text-xs border-orange-600"><i class="fa-solid fa-circle-play text-orange-600"></i> Watche Reviews</button>
-                
-                </div>
+                   </div>                    
+                        <button class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-6 py-2 text-xs rounded-sm text-white font-semibold hover:from-[#FF921B] hover:to-[#F66844] mx-4">Get started
+                        </button>
+                        <button class="p-2 border-2 text-xs border-orange-600">
+                            <i class="fa-solid fa-circle-play text-orange-600"></i> Watche Reviews
+                        </button>
+               </div>
                 <div>
-                    <img src="./images/banner.png" alt="">
+                    <img width="100%" src="./images/banner.png" alt="">
+                </div>
+                <div class="absolute backdrop-blur-sm -bottom-4 px-2 md:px-6 py-3 flex gap-8 text-xs md:text-2xl text-white pr-8 md:pr-16 bg-gradient-to-r from-[#F66844] to-[#FF921B] [clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)]">
+                    <i class="fa-brands fa-google "></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
                 </div>
             </div>
-         </section>
-
+        </section>
     </header>
     <main>
+        <!-- ----Fitness and Nutrition Section Start------ -->
+       <section class="container mx-auto relative p-2">
+  <!-- Content -->
+  <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl md:top-16 top-5 absolute font-bold mb-10">
+    Fitness Plans and <span class="text-orange-600">Nutritions</span>
+  </h1>
+  <hr class="text-2xl text-orange-600 h-[550px] hidden sm:hidden md:hidden lg:block absolute right-[400px] top-32 w-[2px] bg-orange-500">
+  <hr class="text-2xl text-orange-600 h-[550px] hidden sm:hidden md:hidden lg:block absolute left-[400px] top-32 w-[2px] bg-orange-500">
+  <hr class="text-2xl text-orange-600 w-full hidden sm:hidden md:hidden lg:block absolute top-[400px] h-[2px] right-2 bg-orange-500">
+  <div class="absolute top-28 sm:top-40 md:bottom-52 lg:bottom-96 left-1/2 -translate-x-1/2 text-center container">
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+      <!-- Card 1 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center ">
+        <img src="./images/workout 1.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Weight Loss</h2>
+        <p class="text-sm opacity-80">
+          Weight loss can have causes that aren't due to <br> underlying disease. Examples include dieting, <br> exercise, malnutrition or lack of access to food
+        </p>
+      </div>
+      <!-- Card 2 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center ">
+        <img src="./images/yoga 1.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Classic Yoga</h2>
+        <p class="text-sm opacity-80">
+          The term "Yoga" in the Western world often<br> denotes a modern form of Hatha yoga and a <br> posture-based physical fitness, stress-relief. 
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center">
+        <img src="./images/bicycle 1.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Cycling</h2>
+        <p class="text-sm opacity-80">
+          Cycling, aslo, when on a two-wheeled bicycle, <br> called bicycling or biking, is the use of cycles for <br>transport, recreation, exercise or sport.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center">
+        <img src="./images/biceps.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Body Building</h2>
+        <p class="text-sm opacity-80">
+          Bodybuilding is the use of progressive resistance <br> exercise to control and develop one's muscles by <br> muscle hypertrophy for aesthetic purposes.
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center">
+        <img src="./images/fitness.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Musculation</h2>
+        <p class="text-sm opacity-80">
+          Weight training is a common type of strength <br> training for developing the strength, size of <br> skeletal muscles and maintenance of strength.
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="flex flex-col items-center text-white gap-5 text-center">
+        <img src="./images/runer-silhouette-running-fast.png" alt="" class="w-20 h-20 object-contain">
+        <h2 class="text-xl font-semibold">Fitness Running</h2>
+        <p class="text-sm opacity-80">
+         Running is a method of terrestrial loccamotion <br> allowing humans and other animals to move <br> rapidly on foot.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Background Image -->
+  <div>
+    <img class="transform hidden md:block scale-y-[-1] opacity-30 w-full h-auto" src="./images/banner.png" alt="">
+  </div>
+</section>
+
 
     </main>
     <footer>
