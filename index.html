@@ -14,8 +14,8 @@
 <body class="bg-black">
     <header class="">
         <!----------Navbar Section Start------->
-        <nav class="p-2">
-            <div class="container mx-auto  flex flex-col md:flex-row  justify-between items-start md:items-center">
+        <nav class="container mx-auto p-2 ">
+            <div class=" flex flex-col sm:flex-row justify-between  ">
                 <!-- logo -->
                 <div class="bg-gradient-to-r from-[#F66844] to-[#5e3508] bg-clip-text text-transparent">
                     <div class="text-center flex gap-2 items-center md:mb-3 mb-1  ">
@@ -76,14 +76,11 @@
   <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl md:top-16 top-5 absolute font-bold mb-10">
     Fitness Plans and <span class="text-orange-600">Nutritions</span>
   </h1>
-  <hr class="text-2xl text-orange-600 h-[550px] hidden sm:hidden md:hidden lg:block absolute right-[400px] top-32 w-[2px] bg-orange-500">
-  <hr class="text-2xl text-orange-600 h-[550px] hidden sm:hidden md:hidden lg:block absolute left-[400px] top-32 w-[2px] bg-orange-500">
-  <hr class="text-2xl text-orange-600 w-full hidden sm:hidden md:hidden lg:block absolute top-[400px] h-[2px] right-2 bg-orange-500">
   <div class="relative md:absolute top-28 sm:top-40 md:bottom-52 lg:bottom-96 left-1/2 -translate-x-1/2 text-center container">
     <!-- Grid Layout -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
       <!-- Card 1 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center ">
+      <div class="flex flex-col items-center text-white gap-5 text-center lg:border-r-2 lg:border-b-2 border-orange-600 py-6">
         <img src="./images/workout 1.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Weight Loss</h2>
         <p class="text-sm opacity-80">
@@ -91,7 +88,7 @@
         </p>
       </div>
       <!-- Card 2 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center ">
+      <div class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 lg:border-r-2 py-6 ">
         <img src="./images/yoga 1.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Classic Yoga</h2>
         <p class="text-sm opacity-80">
@@ -100,7 +97,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center">
+      <div class="flex flex-col items-center text-white gap-5 text-center lg:border-b-2 border-orange-600 py-6">
         <img src="./images/bicycle 1.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Cycling</h2>
         <p class="text-sm opacity-80">
@@ -109,7 +106,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center">
+      <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
         <img src="./images/biceps.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Body Building</h2>
         <p class="text-sm opacity-80">
@@ -118,7 +115,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center">
+      <div class="flex flex-col items-center text-white gap-5 text-center border-orange-600 lg:border-r-2 py-6">
         <img src="./images/fitness.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Musculation</h2>
         <p class="text-sm opacity-80">
@@ -127,7 +124,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="flex flex-col items-center text-white gap-5 text-center">
+      <div class="flex flex-col items-center text-white gap-5 text-center  border-orange-600 py-6">
         <img src="./images/runer-silhouette-running-fast.png" alt="" class="w-20 h-20 object-contain">
         <h2 class="text-xl font-semibold">Fitness Running</h2>
         <p class="text-sm opacity-80">
@@ -144,12 +141,13 @@
   </div>
 </section>
     <!-- ---------Subscribe to plan section start--------- -->
-     <section class="container mx-auto mt-44 mb-44 px-2 lg:mt-0 relative md:-bottom-94 bottom-0 lg:bottom-0 md:mt-20">
+     <section class="container  mx-auto relative mt-44 mb-20 px-2 lg:mt-0  md:-bottom-94 bottom-0 lg:bottom-0 md:mt-20">
       <div>
          <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl  font-bold md:mb-48 mb-[50px]">
                Subscribe to  <span class="text-orange-600">Plans</span>
          </h1>
          <div class="flex flex-col gap-5 md:gap-10 md:flex-row justify-around">
+          <!-- ---Plan-1---- -->
           <div class="bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
             <h1 class="text-2xl font-medium">
               Fit
@@ -167,6 +165,7 @@
               Select Plan
             </button>
           </div>
+          <!-- ------Plan-2--- -->
           <div class=" relative top-0 md:-top-10 bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
             <button class="absolute -top-5 px-4 py-2 font-medium bg-white text-black rounded-md">
               Recomended
@@ -187,6 +186,7 @@
               Select Plan
             </button>
           </div>
+          <!--------- Plan-3-------- -->
           <div class="bg-gradient-to-b from-[#565555]/20 to-[#ffffff]/0 p-8 text-white space-y-4 flex flex-col items-center  text-center">
             <h1 class="text-2xl font-medium">
               Fit
@@ -207,6 +207,21 @@
       
          </div>
       </div>
+     </section>
+
+            <!----------Trainer Section Start------------  -->
+     <section class="container mx-auto px-2 relative md:top-96 top-0 lg:top-0 ">
+        <div>
+             <h1 class="text-white text-2xl  md:text-3xl lg:text-4xl  font-bold mb-10 md:mb-28">
+                     Join Out <span class="text-orange-600">Trainer</span>
+             </h1>
+                <div class="flex flex-col sm:flex-row justify-center sm:justify-around items-center gap-6">
+                     <img src="./images/trainer_01.png" alt="Trainer 1" class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                     <img src="./images/trainer_02.png" alt="Trainer 2" class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                     <img src="./images/trainer_03.png" alt="Trainer 3" class="w-48 sm:w-56 md:w-56 lg:w-72 object-contain">
+                </div>
+
+        </div>
      </section>
 
     </main>
